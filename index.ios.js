@@ -1,5 +1,5 @@
 import { AppRegistry } from 'react-native';
 
-import Whatsapp from './App';
+import WhatsApp from './App';
 
-AppRegistry.registerComponent('Whatsapp', () => Whatsapp);
+AppRegistry.registerComponent('WhatsApp', () => WhatsApp);
