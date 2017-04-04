@@ -1,3 +1,4 @@
+import { SERVER_URL } from 'env';
 import React from 'react';
 import { View } from 'react-native';
 import ScrollableTabView from 'react-native-scrollable-tab-view';
@@ -17,7 +18,7 @@ class Home extends React.Component {
       Chats: [],
       Calls: [],
     };
-    fetch('/Users/chauhan/Desktop/Whatsapp/App/data/data.json')
+    fetch(`${SERVER_URL}/data/dbMock.json`)
      .then(response => response.json())
      .then(data => this.setState({
        Contacts: data.Contacts,

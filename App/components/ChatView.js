@@ -89,7 +89,7 @@ class Chatview extends React.Component {
     return (
       <View style={{ flex: 1 }}>
         <Image
-          source={require('../images/background.jpg')}
+          source={require('../assets/background.jpg')}
           style={styles.image}
         >
           <View style={styles.header}>

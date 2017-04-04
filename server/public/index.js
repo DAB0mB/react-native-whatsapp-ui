@@ -6,6 +6,17 @@ register.attributes = {
 };
 
 function register(server, options, next) {
+  // Data endpoint
+  server.route({
+    method: 'GET',
+    path: '/data/{path*}',
+    handler: {
+      directory: {
+        path: './data'
+      }
+    }
+  });
+
   // Pictures endpoint
   server.route({
     method: 'GET',
