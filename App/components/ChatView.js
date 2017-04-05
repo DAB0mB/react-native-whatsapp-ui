@@ -43,7 +43,7 @@ const EachMsg = (props) => {
       <View style={styles.rightBlock} >
         <Text style={styles.rightTxt}>{props.msg}</Text>
       </View>
-      <Image source={`${SERVER_URL}/pictures/users/tobias.jpg`} style={styles.userPic} />
+      <Image source={{ uri: `${SERVER_URL}/images/users/tobias.jpg` }} style={styles.userPic} />
     </View>
   );
 };
@@ -147,9 +147,10 @@ class Chatview extends React.Component {
             </View>
           </KeyboardAvoidingView>
         </Image>
-      </View>);
+      </View>
+    );
   }
-        }
+}
 
 export default Chatview;
 

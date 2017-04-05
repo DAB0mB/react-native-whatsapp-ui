@@ -8,6 +8,17 @@ import Calls from './CallsTab';
 import Chats from './ChatsTab';
 import Contacts from './ContactsTab';
 
+const transformData = (data) => {
+  data.Contacts.forEach((Contact) => {
+    Contact.image = `${SERVER_URL}/${Contact.image}`;
+  });
+  data.Chats.forEach((Chat) => {
+    Chat.image = `${SERVER_URL}/${Chat.image}`;
+  });
+  data.Calls.forEach((Call) => {
+    Call.image = `${SERVER_URL}/${Call.image}`;
+  });
+};
 
 // Main Component
 class Home extends React.Component {
@@ -20,11 +31,14 @@ class Home extends React.Component {
     };
     fetch(`${SERVER_URL}/data/dbMock.json`)
      .then(response => response.json())
-     .then(data => this.setState({
-       Contacts: data.Contacts,
-       Chats: data.Chats,
-       Calls: data.Calls,
-     }));
+     .then(data => {
+       transformData(data);
+       return this.setState({
+         Contacts: data.Contacts,
+         Chats: data.Chats,
+         Calls: data.Calls,
+       });
+     });
   }
   render() {
     return (

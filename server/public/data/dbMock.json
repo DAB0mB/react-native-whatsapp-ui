@@ -6,7 +6,7 @@
       "message": "learn to code.",
       "icon": "done",
       "isViewed": "false",
-      "image": "localhost:8000/pictures/users/quincy.jpg"
+      "image": "images/users/quincy.jpg"
     },
     {
       "name": "Preethi Kasireddy",
@@ -14,7 +14,7 @@
       "message": "viverra pede",
       "icon": "done",
       "isViewed": true,
-      "image": "localhost:8000/pictures/users/preeti.jpg"
+      "image": "images/users/preeti.jpg"
     },
     {
       "name": "Douglas Crockford",
@@ -22,7 +22,7 @@
       "message": "vehicula consequat",
       "icon": "done-all",
       "isViewed": "false",
-      "image": "localhost:8000/pictures/users/crockford.jpg"
+      "image": "images/users/crockford.jpg"
     },
     {
       "name": "Andrew Clark",
@@ -30,7 +30,7 @@
       "message": "vehicula",
       "icon": "done-all",
       "isViewed": true,
-      "image": "localhost:8000/pictures/users/andrew.jpg"
+      "image": "images/users/andrew.jpg"
     },
     {
       "name": "Brendan Eich",
@@ -38,7 +38,7 @@
       "message": "amet",
       "icon": "done",
       "isViewed": "false",
-      "image": "localhost:8000/pictures/users/brendan.jpg"
+      "image": "images/users/brendan.jpg"
     },
     {
       "name": "Max Stoiber",
@@ -46,7 +46,7 @@
       "message": "quis orci nullam",
       "icon": "done",
       "isViewed": "false",
-      "image": "localhost:8000/pictures/users/mxstbr.jpg"
+      "image": "images/users/mxstbr.jpg"
     },
     {
       "name": "Tobias Van Schnieder",
@@ -54,7 +54,7 @@
       "message": "felis sed lacus",
       "icon": "done-all",
       "isViewed": true,
-      "image": "localhost:8000/pictures/users/tobias.jpg"
+      "image": "images/users/tobias.jpg"
     },
     {
       "name": "Wes Bos",
@@ -62,7 +62,7 @@
       "message": "purus aliquet at",
       "icon": "done-all",
       "isViewed": "false",
-      "image": "localhost:8000/pictures/users/wes.jpg"
+      "image": "images/users/wes.jpg"
     },
     {
       "name": "Tom Occhino",
@@ -70,7 +70,7 @@
       "message": "aliquam lacus morbi",
       "icon": "done-all",
       "isViewed": true,
-      "image": "localhost:8000/pictures/users/tom.jpg"
+      "image": "images/users/tom.jpg"
     },
     {
 
@@ -79,7 +79,7 @@
       "message": "integer tincid",
       "icon": "done-all",
       "isViewed": true,
-      "image": "localhost:8000/pictures/users/dan.jpg"
+      "image": "images/users/dan.jpg"
     }
   ],
 
@@ -87,47 +87,47 @@
     {
       "name": "Brendan Eich",
       "status": "I made Javascript !",
-      "image": "localhost:8000/pictures/users/brendan.jpg"
+      "image": "images/users/brendan.jpg"
     },
     {
       "name": "Quincy Larson",
       "status": "Teacher,freecodecamper",
-      "image": "localhost:8000/pictures/users/quincy.jpg"
+      "image": "images/users/quincy.jpg"
     },
     {
       "name": "Dan Abramov",
       "status": "I made Redux but You might not need Redux",
-      "image": "localhost:8000/pictures/users/dan.jpg"
+      "image": "images/users/dan.jpg"
     },
     {
       "name": "Douglas Crockford",
       "status": "JS the Good Parts",
-      "image": "localhost:8000/pictures/users/crockford.jpg"
+      "image": "images/users/crockford.jpg"
     },
     {
       "name": "Kylie Simpson",
       "status": "I dont know JS & You dont know JS !",
-      "image": "localhost:8000/pictures/users/kyle.jpg"
+      "image": "images/users/kyle.jpg"
     },
     {
       "name": "Andrew Clark",
       "status": "lorem ipsum",
-      "image": "localhost:8000/pictures/users/andrew.jpg"
+      "image": "images/users/andrew.jpg"
     },
     {
       "name": "Tobias Van Schnieder",
       "status": "Spotify ! Designer !",
-      "image": "localhost:8000/pictures/users/tobias.jpg"
+      "image": "images/users/tobias.jpg"
     },
     {
       "name": "Wes Bos",
       "status": "Spotify ! Designer !",
-      "image": "localhost:8000/pictures/users/wes.jpg"
+      "image": "images/users/wes.jpg"
     },
     {
       "name": "Eric Elliot",
       "status": "I m not JS chearleader",
-      "image": "localhost:8000/pictures/users/eric.jpg"
+      "image": "images/users/eric.jpg"
     }
   ],
   "Calls": [
@@ -136,7 +136,7 @@
       "call": "call",
       "date": "25-Feb",
       "time": "5:46 PM",
-      "image": "localhost:8000/pictures/users/dan.jpg"
+      "image": "images/users/dan.jpg"
 
     },
     {
@@ -144,7 +144,7 @@
       "call": "videocam",
       "date": "31-Jan",
       "time": "12:38 PM",
-      "image": "localhost:8000/pictures/users/andrew.jpg"
+      "image": "images/users/andrew.jpg"
 
     },
     {
@@ -152,7 +152,7 @@
       "call": "call",
       "date": "01-Jul",
       "time": "1:33 PM",
-      "image": "localhost:8000/pictures/users/crockford.jpg"
+      "image": "images/users/crockford.jpg"
 
     },
     {
@@ -160,7 +160,7 @@
       "call": "videocam",
       "date": "19-Feb",
       "time": "3:59 AM",
-      "image": "localhost:8000/pictures/users/eric.jpg"
+      "image": "images/users/eric.jpg"
 
     },
     {
@@ -168,7 +168,7 @@
       "call": "call",
       "date": "12-Apr",
       "time": "9:57 AM",
-      "image": "localhost:8000/pictures/users/kyle.jpg"
+      "image": "images/users/kyle.jpg"
 
     },
     {
@@ -176,7 +176,7 @@
       "call": "videocam",
       "date": "13-Aug",
       "time": "9:37 PM",
-      "image": "localhost:8000/pictures/users/quincy.jpg"
+      "image": "images/users/quincy.jpg"
 
     },
     {
@@ -184,7 +184,7 @@
       "call": "call",
       "date": "17-Dec",
       "time": "4:32 AM",
-      "image": "localhost:8000/pictures/users/preeti.jpg"
+      "image": "images/users/preeti.jpg"
 
     },
     {
@@ -192,7 +192,7 @@
       "call": "videocam",
       "date": "02-Dec",
       "time": "12:56 AM",
-      "image": "localhost:8000/pictures/users/tobias.jpg"
+      "image": "images/users/tobias.jpg"
 
     },
     {
@@ -200,7 +200,7 @@
       "call": "videocam",
       "date": "27-Oct",
       "time": "9:02 PM",
-      "image": "localhost:8000/pictures/users/wes.jpg"
+      "image": "images/users/wes.jpg"
 
     },
     {
@@ -209,7 +209,7 @@
       "call": "call",
       "date": "13-Sep",
       "time": "6:20 PM",
-      "image": "localhost:8000/pictures/users/mxstbr.jpg"
+      "image": "images/users/mxstbr.jpg"
 
     }
   ]
