@@ -1,3 +1,4 @@
+import { SERVER_URL } from 'env';
 import React from 'react';
 import {
    View,
@@ -42,7 +43,7 @@ const EachMsg = (props) => {
       <View style={styles.rightBlock} >
         <Text style={styles.rightTxt}>{props.msg}</Text>
       </View>
-      <Image source={require('../images/tobias.jpg')} style={styles.userPic} />
+      <Image source={`${SERVER_URL}/pictures/users/tobias.jpg`} style={styles.userPic} />
     </View>
   );
 };

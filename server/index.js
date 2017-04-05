@@ -9,9 +9,9 @@ import apiPlugin from './api';
 import publicPlugin from './public';
 import schemaPlugin from './schema';
 
-const appUrl = process.env.APP_URL = String(process.env.APP_URL || '*')
-const host = process.env.HOST = String(process.env.HOST || 'localhost');
-const port = process.env.PORT = Number(process.env.PORT || 8000);
+const appUrl = process.env.APP_URL = String(process.env.APP_URL || 'http://localhost:8081')
+const host = process.env.HOST = String(process.env.HOST || '0.0.0.0');
+const port = process.env.PORT = Number(process.env.PORT || 8080);
 const dbPort = process.env.DB_PORT = Number(process.env.DB_PORT || 27017);
 const dbEnabled = process.env.DB_ENABLED = !!JSON.parse(process.env.DB_ENABLED || 1);
 const nodeEnv = process.env.NODE_ENV = String(process.env.NODE_ENV || 'development');
@@ -45,7 +45,7 @@ server.ext('onPreResponse', (request, reply) => {
   console.log();
   console.log('Outcoming response:');
   console.log();
-  console.log(report.replace(/\n/g, '\n  '));
+  console.log('  ' + report.replace(/\n/g, '\n  '));
   console.log();
 
   reply.continue();
@@ -54,7 +54,7 @@ server.ext('onPreResponse', (request, reply) => {
 // Allow access only to our application
 server.ext('onPreResponse', ({ response }, reply) => {
   if (!(response instanceof Error)) {
-    response.header('Access-Control-Allow-Origin', process.env.APP_URL);
+    response.header('Access-Control-Allow-Origin', appUrl);
     response.header('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE');
   }
 
